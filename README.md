@@ -4,6 +4,35 @@
 
 https://github.com/coding-to-music/api-proxy-routing-react-node
 
+https://api-proxy-routing-react-node.herokuapp.com/
+
+# running locally
+
+## Client
+
+npm run start
+
+```java
+# ./react-ui/react-scripts start
+http://localhost:3000/
+
+# cd react-ui && npm run start
+```
+
+## Server
+
+node ./server/index.js
+
+```java
+http://localhost:5000/api
+```
+
+https://api-proxy-routing-react-node.herokuapp.com/api
+
+```java
+{"message":"Hello from the custom server!"}
+```
+
 By Mars Hall https://github.com/mars
 
 https://github.com/mars/heroku-cra-node

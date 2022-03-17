@@ -44,6 +44,11 @@ git clone https://github.com/mars/heroku-cra-node.git
 cd heroku-cra-node/
 heroku create
 git push heroku master
+
+# for me
+heroku create api-proxy-routing-react-node
+Creating ⬢ api-proxy-routing-react-node... done
+https://api-proxy-routing-react-node.herokuapp.com/ | https://git.heroku.com/api-proxy-routing-react-node.git
 ```
 
 This deployment will automatically:

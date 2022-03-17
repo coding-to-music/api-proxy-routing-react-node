@@ -6,6 +6,41 @@ https://github.com/coding-to-music/api-proxy-routing-react-node
 
 https://api-proxy-routing-react-node.herokuapp.com/
 
+https://api-proxy-routing-react-node.herokuapp.com/api
+
+```java
+{"message":"Hello from the custom server!"}
+```
+
+https://api-proxy-routing-react-node.herokuapp.com/sign-s3
+
+```java
+2022-03-17T05:54:30.280874+00:00 app[web.1]: { Error: connect ECONNREFUSED
+2022-03-17T05:54:30.280898+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+2022-03-17T05:54:30.280899+00:00 app[web.1]: message:
+2022-03-17T05:54:30.280900+00:00 app[web.1]: 'Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1',
+2022-03-17T05:54:30.280900+00:00 app[web.1]: errno: 'ECONNREFUSED',
+2022-03-17T05:54:30.280900+00:00 app[web.1]: code: 'CredentialsError',
+2022-03-17T05:54:30.280901+00:00 app[web.1]: syscall: 'connect',
+2022-03-17T05:54:30.280901+00:00 app[web.1]: port: 80,
+2022-03-17T05:54:30.280902+00:00 app[web.1]: time: 2022-03-17T05:54:30.272Z,
+2022-03-17T05:54:30.280902+00:00 app[web.1]: originalError:
+2022-03-17T05:54:30.280903+00:00 app[web.1]: { message: 'Could not load credentials from any providers',
+2022-03-17T05:54:30.280903+00:00 app[web.1]: errno: 'ECONNREFUSED',
+2022-03-17T05:54:30.280903+00:00 app[web.1]: code: 'CredentialsError',
+2022-03-17T05:54:30.280903+00:00 app[web.1]: syscall: 'connect',
+2022-03-17T05:54:30.280904+00:00 app[web.1]: port: 80,
+2022-03-17T05:54:30.280904+00:00 app[web.1]: time: 2022-03-17T05:54:30.272Z,
+2022-03-17T05:54:30.280904+00:00 app[web.1]: originalError:
+2022-03-17T05:54:30.280904+00:00 app[web.1]: { message: 'EC2 Metadata roleName request returned error',
+```
+
+https://api-proxy-routing-react-node.herokuapp.com/account
+
+```java
+Internal Server Error
+```
+
 # running locally
 
 ## Client

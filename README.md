@@ -25,6 +25,8 @@ node ./server/index.js
 
 ```java
 http://localhost:5000/api
+
+http://localhost:5000/sign-s3
 ```
 
 https://api-proxy-routing-react-node.herokuapp.com/api

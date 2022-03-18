@@ -8,6 +8,10 @@ https://api-proxy-routing-react-node.herokuapp.com/
 
 https://api-proxy-routing-react-node.herokuapp.com/api
 
+https://api-proxy-routing-react-node.herokuapp.com/sign-s3
+
+https://api-proxy-routing-react-node.herokuapp.com/account
+
 ```java
 {"message":"Hello from the custom server!"}
 ```
@@ -62,6 +66,9 @@ node ./server/index.js
 http://localhost:5000/api
 
 http://localhost:5000/sign-s3
+
+http://localhost:5000/account
+
 ```
 
 https://api-proxy-routing-react-node.herokuapp.com/api
